@@ -12,3 +12,9 @@ this is text file
 
 say hi
 
+
+say hi
+
+내일은 뭐먹지
+
+yun
