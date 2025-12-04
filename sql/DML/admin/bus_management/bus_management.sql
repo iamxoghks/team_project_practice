@@ -15,8 +15,8 @@ VALUES (
 
 ------  ADMB-02 버스 정보 수정 --------
 
-
-
+    ------ 버스의 구장 정보 변경시 ----------
+    UPDATE bus_list SET ground_id = 10 WHERE bus_id = 5;
 
 ------  ADMB-03 버스 정보 삭제 --------
 
