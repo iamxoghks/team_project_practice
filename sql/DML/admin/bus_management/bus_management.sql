@@ -1,5 +1,5 @@
 ------  ADMB-01 버스 정보 등록 --------
------- 
+
 INSERT INTO bus_list (
     ground_id, 
     bus_seat_count, 
@@ -12,7 +12,6 @@ VALUES (
     '01a20e80-d0fe-11f0-94f4-02001702205f', 
     '74주6585'
 );
-
 
 ------  ADMB-02 버스 정보 수정 --------
 
