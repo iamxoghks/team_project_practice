@@ -1,4 +1,4 @@
--- 관리사 등록
+-- 관리자 등록
 insert into admin_list(admin_name, admin_email, admin_password)
 valuse('kang', 'kanggi00@naver.com', '0070!');
 
