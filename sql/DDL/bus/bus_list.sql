@@ -4,5 +4,5 @@ CREATE TABLE bus_list(
     admin_id VARCHAR(36) NOT NULL,
     bus_seat_count INT,
     PRIMARY KEY (bus_id),
-    FOREIGN KEY (admin_id) REFERENCES USER_LIST (user_id)
+    FOREIGN KEY (admin_id) REFERENCES admin_list (admin_id)
 );
