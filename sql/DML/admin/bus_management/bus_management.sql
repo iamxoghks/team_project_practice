@@ -20,8 +20,8 @@ VALUES (
 
 ------  ADMB-03 버스 정보 삭제 --------
 
-
-
+------ DB에서 데이터를 지우지 말고 is_active 컬럼에서 0(false), 1(true) 로 관리
+UPDATE bus_list SET is_active = 0 WHERE bus_id = 5;
 
 ------  ADMB-04 버스 스케쥴 등록 --------
 
