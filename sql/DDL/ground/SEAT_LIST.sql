@@ -5,3 +5,16 @@ create table SEAT_LIST(
     primary key(seat_id), 
     foreign key (ground_id) references GROUND_LIST(ground_id)
 );
+
+insert into seat_list(
+    ground_id,seat_name,ground_sight,ground_grade,price)
+    values
+    (10,'a01','내야 1층','일반석',10000),
+    (11,'a02','내야 1층','일반석',11000),
+   (12,'a03','내야 1층','일반석',10000),
+   (13,'a04','내야 1층','일반석',10000),
+   (14,'a05','내야 1층','일반석',10000),
+   (15,'a06','내야 1층','일반석',10000),
+   (16,'a07','내야 1층','일반석',10000),
+   (17,'a08','내야 1층','일반석',10000),
+   (18,'a09','내야 1층','일반석',10000);
