@@ -5,7 +5,7 @@ values('성춘향', '12345', '010-1111-1111', 'sung7@naver.com', 3);
 
 -- 회원정보 수정
 update user_list 
-set user_name = 'choi', admin_password='choi777' 
+set user_name = 'choi', user_password='choi777' 
 where user_email='hong4@naver.com';
 
 
