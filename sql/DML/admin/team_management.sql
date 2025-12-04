@@ -1,0 +1,10 @@
+insert into team_list(ground_id, admin_id, team_name) values(15, '1b15a477-d0e7-11f0-94f4-02001702205f', '삼성');
+insert into team_list(ground_id, admin_id, team_name) values(16, '21c66e2e-d0e7-11f0-94f4-02001702205f', '롯데');
+insert into team_list(ground_id, admin_id, team_name) values(14, '21c66e2e-d0e7-11f0-94f4-02001702205f', '한화');
+insert into team_list(ground_id, admin_id, team_name) values(10, '20ada1ff-d0e7-11f0-94f4-02001702205f', 'LG');
+insert into team_list(ground_id, admin_id, team_name) values(12, '1b15a477-d0e7-11f0-94f4-02001702205f', 'SSG');
+insert into team_list(ground_id, admin_id, team_name) values(17, '20ada1ff-d0e7-11f0-94f4-02001702205f', 'NC');
+insert into team_list(ground_id, admin_id, team_name) values(13, '228ce23e-d0e7-11f0-94f4-02001702205f', 'KT');
+insert into team_list(ground_id, admin_id, team_name) values(18, '1b15a477-d0e7-11f0-94f4-02001702205f', 'KIA');
+insert into team_list(ground_id, admin_id, team_name) values(10, '233d13d4-d0e7-11f0-94f4-02001702205f', '두산');
+insert into team_list(ground_id, admin_id, team_name) values(11, '20ada1ff-d0e7-11f0-94f4-02001702205f', '키움');
