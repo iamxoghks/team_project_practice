@@ -9,3 +9,5 @@ user_fav_team bigint);
 alter table user_list add constraint 
 foreign key (user_fav_team) references team_list(team_id) 
 on delete set null on update cascade;
+
+alter table user_list add column is_active tinyint default 1;
