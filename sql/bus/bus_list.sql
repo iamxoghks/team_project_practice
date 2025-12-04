@@ -1,4 +1,4 @@
-CREATE TABLE BUS_LIST(
+CREATE TABLE bus_list(
     bus_id BIGINT NOT NULL auto_increment,
     grund_id BIGINT NOT NULL,
     admin_id CHAR(36) NOT NULL,
