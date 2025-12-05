@@ -41,6 +41,5 @@ BEGIN
 END //
 
 
-
-
-
+----- procedure call -----
+call insert_bus_one(10, '233d13d4-d0e7-11f0-94f4-02001702205f', 30, '울산79라3086');
