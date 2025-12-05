@@ -25,6 +25,25 @@ UPDATE bus_list SET is_active = 0 WHERE bus_id = 5;
 
 ------  ADMB-04 버스 스케쥴 등록 --------
 
+-- 앞으로 진행할 한 경기에 배치할 수 있고 스케쥴 등록이 안 된 버스 리스트 select.  --
+SELECT 
+    gs.game_id, 
+    g.ground_name, 
+    gs.ground_id, 
+    b.bus_num, 
+    DATE_FORMAT(gs.game_date, '%Y.%m.%d %H:%i')
+FROM bus_list AS b 
+JOIN game_schedule_list AS gs 
+    ON gs.ground_id = b.ground_id 
+JOIN ground_list AS g 
+    ON g.ground_id = gs.ground_id 
+LEFT JOIN bus_schedule_list AS bs 
+    ON b.bus_id = bs.bus_id 
+    AND gs.game_id = bs.game_id 
+WHERE gs.game_id = 74 
+    AND bs.bus_id IS NULL 
+    AND gs.game_date > NOW();
+-- 해당 경기에 배치할 버스 등록 --
 
 
 
