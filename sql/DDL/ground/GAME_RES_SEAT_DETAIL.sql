@@ -1,4 +1,4 @@
-create table GAME_RES_SEAT_DETAIL(
+create table game_res_seat_detail(
     game_res_seat_detail_id bigint not null auto_increment,
     game_res_id bigint not null,seat_id bigint not null,
     primary key(game_res_seat_detail_id), 
@@ -9,4 +9,8 @@ create table GAME_RES_SEAT_DETAIL(
 insert into game_res_seat_detail(
     game_res_id,seat_id)
 values
-()
+(19,3),
+(20,10),
+(21,11),
+(22,12),
+(23,13);
